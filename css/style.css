@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    border-style: solid;
+    height: 70px;
+    font-family: "Irish Grover", system-ui;
+    font-size: 55px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Kick{
+    color: #06027B;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 30px;
+    align-items: end;
+    font-size: 30px;
+    color: #2267DE;
+    
+}
+.Masculino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+    font-size: 35px;
+    font-family: "Irish Grover", system-ui;
+}
+.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 90px;
+}
